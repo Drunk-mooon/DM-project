@@ -1,0 +1,92 @@
+Stability Analysis Results:
+--------------------------------------------------
+
+Politeness:
+  Mean: 2.80
+  Std Dev: 0.40
+  Range: 1 (min: 2, max: 3)
+
+Vulgarity:
+  Mean: 1.20
+  Std Dev: 0.40
+  Range: 1 (min: 1, max: 2)
+
+Filler Words:
+  Mean: 2.20
+  Std Dev: 0.40
+  Range: 1 (min: 2, max: 3)
+
+Concept Density:
+  Mean: 3.80
+  Std Dev: 0.40
+  Range: 1 (min: 3, max: 4)
+
+Social Tendency:
+  Mean: 4.20
+  Std Dev: 0.40
+  Range: 1 (min: 4, max: 5)
+
+Influence:
+  Mean: 2.80
+  Std Dev: 0.40
+  Range: 1 (min: 2, max: 3)
+
+Interaction Frequency:
+  Mean: 4.80
+  Std Dev: 0.40
+  Range: 1 (min: 4, max: 5)
+
+Controversy:
+  Mean: 2.00
+  Std Dev: 0.00
+  Range: 0 (min: 2, max: 2)
+
+Extraversion:
+  Mean: 3.20
+  Std Dev: 0.40
+  Range: 1 (min: 3, max: 4)
+
+Agreeableness:
+  Mean: 4.00
+  Std Dev: 0.00
+  Range: 0 (min: 4, max: 4)
+
+Conscientiousness:
+  Mean: 3.20
+  Std Dev: 0.40
+  Range: 1 (min: 3, max: 4)
+
+Neuroticism:
+  Mean: 1.80
+  Std Dev: 0.40
+  Range: 1 (min: 1, max: 2)
+
+Openness:
+  Mean: 4.20
+  Std Dev: 0.40
+  Range: 1 (min: 4, max: 5)
+
+Analytical:
+  Mean: 4.40
+  Std Dev: 0.80
+  Range: 2 (min: 3, max: 5)
+
+Insight:
+  Mean: 3.20
+  Std Dev: 0.40
+  Range: 1 (min: 3, max: 4)
+
+Causality:
+  Mean: 2.60
+  Std Dev: 0.80
+  Range: 2 (min: 2, max: 4)
+
+Certainty:
+  Mean: 3.20
+  Std Dev: 0.98
+  Range: 2 (min: 2, max: 4)
+
+Hesitancy:
+  Mean: 1.60
+  Std Dev: 0.80
+  Range: 2 (min: 1, max: 3)

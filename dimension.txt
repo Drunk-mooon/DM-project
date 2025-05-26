@@ -1,0 +1,39 @@
+
+# 语言风格 (Language Style)
+
+* **礼貌性 (Politeness)**：用户语言中礼貌用语（如 *please, thank* 等）的使用程度。LIWC中有“Politeness”/“Prosocial”类别专门对应感谢和帮助用语。
+* **粗俗/脏话 (Profanity/Vulgarity)**：衡量用户文本中粗鄙、下流词汇的使用频率。对应LIWC的“Swear words”类别（如 *shit, fuck, damn*）。
+* **填充词/口头禅 (Fillers/Disfluencies)**：衡量使用非正式语气词或口头禅（如 *uh, you know*）的频率。LIWC“Fillers/Nonfluencies”类别包含此类词。
+* **概念密度 (Conceptual density)**：计算方法：领域专有名词数量 / 文本长度，衡量用户使用领域特定概念的频率。
+
+# 社交行为 (Social Behavior)
+
+* **社交倾向 (Sociability)**：体现用户关注他人和社交话题的程度。衡量文本中社交相关词的使用（如 *talk, friend, us* 等社交进程词）。
+* **影响力/声望 (Influence/Reputation)**：由用户的点赞数、karma等行为特征推断其社区地位。研究表明，高Karma用户往往被视作更可信、有影响力的成员。
+* **互动频率指数(Interaction frequency)**：由用户的发帖间隔时间标准差、发帖时间戳间隔、发帖数量推断其活跃程度。
+* **争议制造倾向(Dispute making tendency)**：由用户的点踩数占总互动数以及相应的评论数推断用户发表争议言论的倾向。
+
+
+# 心理人格 (Personality Traits)(大五人格)
+
+* **外向性 (Extraversion)**：表现为喜欢社交、乐观开朗。外向者倾向使用更多积极情感词和社交词（如 *happy, talk*），研究已发现外向性与正面情绪词和社交进程词显著相关。
+* **宜人性 (Agreeableness)**：表现为友善、乐于助人。高宜人性者通常更友好、有同理心，语言中使用更多关怀、感激等正面社交用语（如 *care, help, thank* 等）。LIWC“Prosocial”类别捕捉关心和感激用语。
+* **尽责性 (Conscientiousness)**：表现为有责任感、条理性强。尽责者倾向在语言中体现计划性和组织性，如使用秩序性、规则性强的词汇。
+* **神经质 (Neuroticism)**：倾向体验负面情绪（焦虑、忧郁等）。神经质高的用户更常使用负面情绪词，情感表达易波动。
+* **开放性 (Openness)**：指好奇、富有想象力和求知欲。高开放性者倾向关注新奇事物、具有创造性思维，其语言可能更具想象性和多样性。
+
+# 认知特征 (Cognitive Features)
+
+* **分析性思维 (Analytical Thinking)**：指语言中展现正式、逻辑化思维模式的程度。高分析性用词意味着句子结构更复杂、逻辑严谨。
+* **洞察 (Insight)**：反映自省和理解力，衡量文本中使用诸如 *think, know, consider* 等表示思考过程的词汇频率。
+* **因果 (Causation)**：衡量语言中表示因果关系（如 *because, effect, hence*）的词汇使用强度，暗示思维是否注重逻辑推理。
+* **确定性 (Certainty)**：指语言表达的自信程度，体现在使用明确肯定词（如 *always, never*）的频率。
+* **犹豫性 (Tentativeness)**：衡量语言中的不确定或推测性词汇使用（如 *maybe, perhaps*），反映说话人表达谨慎或保留的倾向。
+
+
+reference：
+感觉找不到直接设计用户画像维度的工作，20年以前倒是不少验证依据发帖的文本能够推断用户性格的工作
+1. Computational Personality Recognition in Social Media：使用Reddit和Twitter文本预测大五人格 2015
+2. The Language of Extraversion：基于LIWC词典和语言模型，验证外向性在社交媒体文本中的语言标记 2013
+3. Identifying contributory domain experts in online innovation communities：基于Wikipedia编辑历史，通过领域术语密度和编辑质量（同行评审评分）识别专家用户 2012
+4. Quantifying Mental Health Signals in Twitter：过用户语言模式（如认知复杂度、自我反思词汇）评估心理健康知识水平 2013
