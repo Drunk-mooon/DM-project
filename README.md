@@ -1,5 +1,8 @@
 # User Recommendation System based on LLM (large-language-model)
 
+## Supporting Work
+scripts in folder `./supporting_work` include the framework we build to predict the stance of twitter post. Scripts from m1.py to m5.py are 5 LLM domain experts code. RUn them in sequence. The Multi-Modal-Stance-Detection dataset is too big to upload and can be downloaded from https://github.com/Leon-Francis/Multi-Modal-Stance-Detection
+
 ## Data preprocess
 Use scripts in folder `./preprocess/` to process data. Our processed data is here `./preprocess/reddit_user_posts_filtered.json`.
 
